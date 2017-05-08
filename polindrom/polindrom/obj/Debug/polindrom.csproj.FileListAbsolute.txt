@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\c#\polindrom\polindrom\obj\Debug\polindrom.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\c#\polindrom\polindrom\bin\Debug\polindrom.exe.config
+C:\Users\User\Desktop\c#\polindrom\polindrom\bin\Debug\polindrom.exe
+C:\Users\User\Desktop\c#\polindrom\polindrom\bin\Debug\polindrom.pdb
+C:\Users\User\Desktop\c#\polindrom\polindrom\obj\Debug\polindrom.exe
+C:\Users\User\Desktop\c#\polindrom\polindrom\obj\Debug\polindrom.pdb

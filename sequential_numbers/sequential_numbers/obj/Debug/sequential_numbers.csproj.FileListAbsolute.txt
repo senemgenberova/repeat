@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\c#\sequential_numbers\sequential_numbers\bin\Debug\sequential_numbers.exe.config
+C:\Users\User\Desktop\c#\sequential_numbers\sequential_numbers\bin\Debug\sequential_numbers.exe
+C:\Users\User\Desktop\c#\sequential_numbers\sequential_numbers\bin\Debug\sequential_numbers.pdb
+C:\Users\User\Desktop\c#\sequential_numbers\sequential_numbers\obj\Debug\sequential_numbers.exe
+C:\Users\User\Desktop\c#\sequential_numbers\sequential_numbers\obj\Debug\sequential_numbers.pdb
+C:\Users\User\Desktop\c#\sequential_numbers\sequential_numbers\obj\Debug\sequential_numbers.csprojResolveAssemblyReference.cache
