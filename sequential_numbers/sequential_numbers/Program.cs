@@ -10,44 +10,15 @@ namespace sequential_numbers
     {
         static void Main(string[] args)
         {
-            //int n = Convert.ToInt32(Console.ReadLine());
-            //List<int> myList = new List<int>();
-
-            //while(n != 0)
-            //{
-            //    myList.Add(n % 10);
-            //    n = n / 10;
-            //}
-
-            //int[] digits = myList.ToArray();
-            //int length = digits.Length;
-
-            //if (length % 2 == 1)
-            //{
-            //    if (digits[0] + digits[length-1] == 2 * digits[length / 2])
-            //    {
-            //        Console.WriteLine("duzdu");
-            //    }
-            //}
-
-            //else
-            //{
-            //    for (int i = 0; i < digits.Length; i++)
-            //    {
-            //        if (digits[i] + digits[length-1] == digits[i + 1] + digits[length - 2])
-            //        {
-            //            Console.WriteLine("duzdu");
-            //        }
-            //    }
-            //}
-
             int n = Convert.ToInt32(Console.ReadLine());
             int m = Convert.ToInt32(Console.ReadLine());
             int temp_i = 0;
             List<int> myList = new List<int>();
+            int k = 0;
 
             for (int i = n; i <= m; i++)
             {
+                temp_i = i;
                 while (temp_i != 0)
                 {
                     myList.Add(temp_i % 10);
@@ -57,24 +28,21 @@ namespace sequential_numbers
                 int[] digits = myList.ToArray();
                 int length = digits.Length;
 
-                if (length % 2 == 1)
+                for (int j = 1; j < digits.Length; j++)
                 {
-                    if (digits[0] + digits[length - 1] == 2 * digits[length / 2])
+                    if (digits[j] - digits[j - 1] == -1)
                     {
-                        Console.WriteLine(i);
+                        k++;
                     }
                 }
 
-                else
+                if(k == digits.Length - 1)
                 {
-                    for (int j = 0; j < digits.Length; j++)
-                    {
-                        if (digits[j] + digits[length - 1] == digits[j + 1] + digits[length - 2])
-                        {
-                            Console.WriteLine(i);
-                        }
-                    }
+                    Console.WriteLine(i);
                 }
+
+                k = 0;
+                myList.Clear();
             }
             Console.ReadKey();
         }
